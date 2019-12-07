@@ -5,6 +5,7 @@
 
 ul {
     list-style: none;
+
 }
 
 body {
@@ -21,5 +22,47 @@ h1 {
     font-size: 40px;
     text-align: center;
     color: #fff;
-    text-shadow: 2px 2px 2px black;
+    text-shadow: 2px 2px 2px #000;
+}
+
+/*-------------------------MAIN MENU------------------*/
+
+#main-menu ul {
+    width: 980px;
+    height: 500px;
+    margin: 0 auto;
+    padding-top: 148px;
+}
+
+#main-menu ul li {}
+
+.bw {
+    width: 140px;
+    height: 500px;
+    cursor: pointer;
+    background: url('assets/picture/bw-image.jpg') no-repeat;
+    opacity: .7;
+}
+
+.color {
+    width: 140px;
+    height: 500px;
+    cursor: pointer;
+    background: url('assets/picture/color-image.jpg') no-repeat;
+}
+
+#part2 div {
+    background-position: -140px 0;
+}
+
+#part3 div {
+    background-position: -280px 0;
+}
+
+#part4 div {
+    background-position: -420px 0;
+}
+
+#part5 div {
+    background-position: -560px 0;
 }
