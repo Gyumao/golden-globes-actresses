@@ -38,9 +38,17 @@ h1 {
     padding-top: 14.8rem;
 }
 
-#main-menu ul li {}
+#main-menu ul li {
+    float: left;
+    width: 14rem;
+    height: 50rem;
+    overflow: hidden;
+    position: relative;
+}
 
 .bw {
+    position: absolute;
+    left: 0;
     width: 14rem;
     height: 50rem;
     cursor: pointer;
@@ -49,6 +57,8 @@ h1 {
 }
 
 .color {
+    position: absolute;
+    left: 14rem;
     width: 14rem;
     height: 50rem;
     cursor: pointer;
@@ -72,6 +82,8 @@ h1 {
 }
 
 .description {
+    position: absolute;
+    left: 14rem;
     width: 24rem;
     height: 46rem;
     padding: 2rem;
