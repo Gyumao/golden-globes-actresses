@@ -66,3 +66,28 @@ h1 {
 #part5 div {
     background-position: -560px 0;
 }
+
+.description {
+    width: 240px;
+    height: 460px;
+    padding: 20px;
+    background: #fff;
+}
+
+.description h2 {
+    padding-top: 20px;
+    font-size: 30px;
+    text-align: center;
+    color: #333;
+}
+
+.description h3 {
+    padding: 10px;
+    margin-top: 30px;
+    font-size: 26px;
+    background: #d70000;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 5px;
+}
