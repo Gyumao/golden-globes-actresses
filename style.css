@@ -170,11 +170,13 @@ h1 {
 /*--------------------------------FOOTER-----------------------*/
 .contact-footer {
     text-align: center;
-    margin-top: 6rem;
+    margin-top: 2.5rem;
 }
 
 .p-footer {
     text-align: center;
+    color: #ffd700;
+    text-shadow: 2px 2px 2px black;
     font-size: 2rem;
-    margin-top: 2rem;
+    margin-top: 1rem;
 }
