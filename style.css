@@ -18,15 +18,15 @@ body {
 }
 
 header {
-    padding: 3rem 0;
+    padding: 2rem 0;
 }
 
 h1 {
     font-family: 'Limelight', Helvetica, sans-serif;
-    font-size: 4rem;
+    font-size: 6rem;
     text-align: center;
-    color: #fff;
-    text-shadow: 2px 2px 2px #000;
+    color: #ffd700;
+    text-shadow: 3px 3px 3px #000;
 }
 
 /*-------------------------MAIN MENU------------------*/
@@ -116,4 +116,15 @@ h1 {
     font-size: 2.2rem;
     text-align: center;
     color: #000;
+}
+
+.contact-footer {
+    text-align: center;
+    margin-top: 6rem;
+}
+
+.p-footer {
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 2rem;
 }
