@@ -3,9 +3,16 @@
 $(function () {
     let $mainMenuItems = $("#main-menu ul").children("li"),
         totalMainMenuItems = $mainMenuItems.length,
-        openedIdenx = -1,
+        openedIdenx = 2,
 
         init = function () {
+            bindEvents();
+            if (validIndex(openedIdenx))
+                animateItem($mainMenuItems.eq(openedIdenx), true, 700)
+
+        },
+
+        bindEvents = function () {
             $mainMenuItems.children(".pictures").click(function () {
                 let newIndex = $(this).parent().index(),
                     $item = $mainMenuItems.eq(newIndex);
@@ -23,6 +30,7 @@ $(function () {
                 }
             });
         },
+
 
         validIndex = function (indexToCheck) {
             return (indexToCheck >= 0) && (indexToCheck < totalMainMenuItems)
