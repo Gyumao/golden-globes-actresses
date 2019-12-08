@@ -34,8 +34,8 @@ h1 {
 #main-menu ul {
     width: 98rem;
     height: 50rem;
-    margin: 0 auto;
-    padding-top: 14.8rem;
+    margin: 0 24%;
+    padding-top: 14.3rem;
 }
 
 #main-menu ul li {
@@ -118,6 +118,48 @@ h1 {
     color: #000;
 }
 
+/*-------------------------------BUTTONS-----------------------*/
+
+#buttons-menu {
+    float: left;
+    width: 100%;
+    margin-top: 1rem;
+
+}
+
+#buttons-menu ul {
+    float: left;
+    position: relative;
+    left: 49%;
+    text-align: center;
+}
+
+.button {
+    float: left;
+    width: 15rem;
+    margin-left: 5rem;
+    padding: 1rem 0;
+    position: relative;
+    right: 50%;
+    text-shadow: 1px 1px 1px #000;
+    font-family: 'Lobster', Helvetica, sans-serif;
+    text-align: center;
+    color: #fff;
+    border-radius: 1rem;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, .75);
+    background: #333;
+    border: 5px solid #b70000;
+    font-size: 2.2rem;
+    cursor: pointer;
+}
+
+.button:hover {
+    background: #b70000;
+    border: 5px solid #333;
+    font-size: 2.4rem;
+}
+
+/*--------------------------------FOOTER-----------------------*/
 .contact-footer {
     text-align: center;
     margin-top: 6rem;
