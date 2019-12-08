@@ -111,11 +111,19 @@ h1 {
 }
 
 .description p {
-    font-family: 'Lobster', Helvetica, sans-serif;
     padding-top: 3.5rem;
-    font-size: 2.2rem;
     text-align: center;
+}
+
+.description a {
+    font-family: 'Lobster', Helvetica, sans-serif;
+    font-size: 2.5rem;
     color: #000;
+    text-decoration: none;
+}
+
+.description a:hover {
+    color: #0000ff;
 }
 
 /*-------------------------------BUTTONS-----------------------*/
